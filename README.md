@@ -32,3 +32,9 @@ $ > git branch -M master
 $ > git remote add origin "URL del repositorio remoto"
 $ > git push -u origin master
 ```
+
+# Practica 4 Link
+
+[Página desplegada en Netlify](https://earnest-kleicha-ecb313.netlify.app/posts/)
+
+[Repositorio de la página](https://github.com/Tobias66Jags/tobias-astropage)

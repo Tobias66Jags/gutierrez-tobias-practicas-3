@@ -42,3 +42,7 @@ $ > git push -u origin master
 # Practica 5 Link
 
 [Página desplegada en Vercel](https://tobias-astropage.vercel.app/)
+
+# Practica 6, 7 y 8 Link
+
+[Modelo Entidad-Relación](/gutierrez-tobias-practicas-3/entidad-relacion-tobias.md)

@@ -45,4 +45,4 @@ $ > git push -u origin master
 
 # Practica 6, 7 y 8 Link
 
-[Modelo Entidad-Relación](/gutierrez-tobias-practicas-3/entidad-relacion-tobias.md)
+[Modelo Entidad-Relación](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/entidad-relacion-tobias.md)

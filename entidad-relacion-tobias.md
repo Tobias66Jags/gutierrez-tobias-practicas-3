@@ -27,6 +27,7 @@
 
 - jugador_id (**PK**)
 - Jugador_fecha-nacimiento
+- jugador
 - foto
 - matricula(**UQ**)
 - Número_id (**FK**)
@@ -36,6 +37,7 @@
 #### Coaches
 - coach_id (**PK**)
 - coach_fecha-nacimiento
+- coach
 - celular (**UQ**)
 - Posición_id (**FK**)
 
@@ -52,6 +54,7 @@
 #### Casilleros
 
 - casillero_id (**PK**)
+- número (**FK**)
 
 
 #### Posición

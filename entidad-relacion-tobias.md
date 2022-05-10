@@ -36,7 +36,7 @@
 #### Coaches
 - coach_id (**PK**)
 - coach_fecha-nacimiento
-- calular (**UQ**)
+- celular (**UQ**)
 - Posición_id (**FK**)
 
 #### Uniformes
@@ -168,7 +168,6 @@
 - 97
 - 98
 - 99
-- 100
 
 ##### Valores de Posición
 - Quarterback: Q

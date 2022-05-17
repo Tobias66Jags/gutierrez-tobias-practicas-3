@@ -2,59 +2,59 @@
 
 ### Entidades:
 
-1. Jugadores
+1. Players
 1. Coaches
-1. Uniformes
-1. Posición (**CAT**)
-1. Casilleros
+1. Jerseys
+1. Position (**CAT**)
+1. Lockers
 
 ### Relaciones:
 
-1. Los **Coaches** entrenan **Jugadores** (_1 - M_).
-1. Los **jugadores** usan **uniformes** (_1 - 1_).
-1. Los **Jugadores** tienen una **Posición** (_1 - M_).
-1. Los **Jugadores** usan **Casilleros** (_1 - 1_).
+1. Los **Coaches** entrenan **Players** (_1 - M_).
+1. Los **Players** usan **uniformes** (_1 - 1_).
+1. Los **Players** tienen una **Posición** (_1 - M_).
+1. Los **Players** usan **Casilleros** (_1 - 1_).
 1. Los **Coaches** Usan **Casilleros** (_1 - 1_).
 
 
 ### Atributos:
 
-#### Jugadores
+#### Players
 
-- jugador_id (**PK**)
-- Jugador_fecha-nacimiento
-- jugador
-- foto
-- matricula(**UQ**)
-- Número
-- Posicion_id (**FK**)
-- casillero_id (**FK**)
+- Player_id (**PK**)
+- Player_birthdate
+- Player
+- Photo
+- Matricule(**UQ**)
+- Number 
+- Position_id (**FK**)
+- Locker_id (**FK**)
 
 #### Coaches
 - coach_id (**PK**)
-- coach_fecha-nacimiento
+- coach_birthdate
 - coach
-- celular (**UQ**)
-- Posición_id (**FK**)
+- Phone (**UQ**)
+- Position_id (**FK**)
 
-#### Uniformes
+#### Jerseys
 
-- uniforme_id (**PK**)
-- número
-- talla
-
-
-
-#### Casilleros
-
-- casillero_id (**PK**)
-- número (**FK**)
+- Jersey_id (**PK**)
+- number 
+- size
 
 
-#### Posición
 
-- posición_id (**PK**)
-- jugador_id (**FK**)
+#### Lockers
+
+- Locker_id (**PK**)
+- number
+
+
+#### Position
+
+- position_id (**PK**)
+- player_id (**FK**)
 - coach_id (**FK**)
 
 

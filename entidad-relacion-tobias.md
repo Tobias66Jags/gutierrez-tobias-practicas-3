@@ -79,5 +79,44 @@
 - Punter: P
 
 
+### **Modelo Relacional**:
+
+![Tobias](archivos-multimedia/Football-team-logic.drawio.png)
 
 
+### **Reglas de Negocio**:
+
+### Players
+
+1. Crear _player_.
+1. Leer todos los _players_.
+1. Actualizar datos del _player_.
+1. Eliminar _player_.
+
+### Coaches
+
+1. Crear _coach_.
+1. Leer todos los _coach_.
+1. Actualizar datos del _coach_.
+1. Eliminar _coach_.
+
+### Jerseys
+
+1. Crear _jersey_.
+1. Leer todos los _jerseys_.
+1. Actualizar número del _jersey_.
+1. Actualizar talla del _jersey_.
+
+
+### Lockers
+
+1. Asignar _locker_ a un _player_.
+1. Contar el número de _lockers_ desocupados.
+1. Quitar _locker_ a un _player_. 
+
+### Position
+
+1. Crear _position_ de un _player_.
+1. Actualizar _position_ de un _player_.
+1. Leer las _positions_ de un _player_.
+1. Eliminar _position_ de un _player_.

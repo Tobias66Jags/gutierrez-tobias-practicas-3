@@ -33,16 +33,18 @@ $ > git remote add origin "URL del repositorio remoto"
 $ > git push -u origin master
 ```
 
-# Practica 4 Link
+### Practica 4 Link
 
 [Página desplegada en Netlify](https://earnest-kleicha-ecb313.netlify.app/posts/)
 
 [Repositorio de la página](https://github.com/Tobias66Jags/tobias-astropage)
 
-# Practica 5 Link
+### Practica 5 Link
 
 [Página desplegada en Vercel](https://tobias-astropage.vercel.app/)
 
-# Practica 6, 7 y 8 Link
+## Lógica de negocio
 
 [Modelo Entidad-Relación](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/entidad-relacion-tobias.md)
+
+

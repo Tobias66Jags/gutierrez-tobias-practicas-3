@@ -46,5 +46,6 @@ $ > git push -u origin master
 ## Lógica de negocio
 
 [Modelo Entidad-Relación](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/entidad-relacion-tobias.md)
+[Esquema SQL](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/football_schema.SQL)
 
 

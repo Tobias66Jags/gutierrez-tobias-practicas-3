@@ -16,7 +16,7 @@ UPDATE players
     locker = 1, 
     position = 4,
     jersey = 2
-  WHERE player_id = "2018043571";
+  WHERE player_id = "2018043671";
 /*1. Eliminar _player_.*/
 DELETE FROM players WHERE player_id = "2018043671";
 
@@ -37,7 +37,7 @@ UPDATE coaches
     position = 4
   WHERE coach_id = "shocky";
 /*1. Eliminar _coach_.*/
-DELETE FROM coaches WHERE coach_id = "shocky";
+ c
 
 
 

@@ -46,9 +46,11 @@ UPDATE coaches
 
 /*1. Crear _jersey_.*/
 INSERT INTO jerseys ( number,  size ) VALUES 
-  (66, 'Large' ),
+  (1, 'Large' ),
   (5, 'Small' ),
-  (10, 'Large' );
+  (10, 'Large' ),
+  (15, 'Medium' ),
+  (20, 'Extra Large' );
 /*1. Leer todos los _jerseys_.*/
 SELECT * FROM jerseys;
 /*1. Actualizar talla del _jersey_.*/

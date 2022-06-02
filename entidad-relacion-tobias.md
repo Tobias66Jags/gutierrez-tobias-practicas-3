@@ -104,19 +104,18 @@
 
 1. Crear _jersey_.
 1. Leer todos los _jerseys_.
-1. Actualizar número del _jersey_.
 1. Actualizar talla del _jersey_.
 
 
 ### Lockers
 
-1. Asignar _locker_ a un _player_.
-1. Contar el número de _lockers_ desocupados.
-1. Quitar _locker_ a un _player_. 
+1. Crear _locker_.
+1. Leer todos los  _lockers_.
+1. Eliminar _locker_ . 
 
 ### Position
 
 1. Crear _position_ de un _player_.
 1. Actualizar _position_ de un _player_.
-1. Leer las _positions_ de un _player_.
-1. Eliminar _position_ de un _player_.
+1. Leer las _positions_.
+

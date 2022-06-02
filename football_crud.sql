@@ -12,9 +12,10 @@ UPDATE players
   SET
     
     photo = "https://elnewtobi.com/img/perfiltobinewphoto.jpg",
+    number = 66,
     locker = 1, 
     position = 4,
-    jersey = 1,
+    jersey = 2
   WHERE player_id = "2018043571";
 /*1. Eliminar _player_.*/
 DELETE FROM players WHERE player_id = "2018043671";
@@ -33,7 +34,7 @@ SELECT * FROM coaches;
 UPDATE coaches
   SET   
     phone = "5587654321", 
-    position = 4,
+    position = 4
   WHERE coach_id = "shocky";
 /*1. Eliminar _coach_.*/
 DELETE FROM coaches WHERE coach_id = "shocky";
@@ -44,14 +45,16 @@ DELETE FROM coaches WHERE coach_id = "shocky";
 /*### Jerseys*/
 
 /*1. Crear _jersey_.*/
-INSERT INTO jerseys ( numberP,  size ) VALUES 
-  (55, 'Large' );
+INSERT INTO jerseys ( number,  size ) VALUES 
+  (66, 'Large' ),
+  (5, 'Small' ),
+  (10, 'Large' );
 /*1. Leer todos los _jerseys_.*/
 SELECT * FROM jerseys;
 /*1. Actualizar talla del _jersey_.*/
 UPDATE jerseys
   SET   
-   size = "Small"
+   size = "Medium"
   WHERE jersey_id = 1;
 
 /*1. Eliminar _jersey_.*/
@@ -63,7 +66,7 @@ DELETE FROM jerseys WHERE jersey_id = 1;
 /*### Lockers*/
 
 /*1. Crear _locker_ .*/
-INSERT INTO lockers ( numberL ) VALUES 
+INSERT INTO lockers ( number ) VALUES 
   (50);
 /*. Leer todos los _lockers_ */
 SELECT * FROM lockers;

@@ -44,9 +44,12 @@ $ > git push -u origin master
 [Página desplegada en Vercel](https://tobias-astropage.vercel.app/)
 
 ## Lógica de negocio
+[Diagrama football team](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/archivos-multimedia/Football-team-logic.drawio.png)
 
 [Modelo Entidad-Relación](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/entidad-relacion-tobias.md)
 
 [Esquema SQL](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/football_schema.SQL)
+
+[CRUD SQL](https://github.com/Tobias66Jags/gutierrez-tobias-practicas-3/blob/main/football_crud.sql)
 
 

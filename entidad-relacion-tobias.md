@@ -10,7 +10,7 @@
 
 ### Relaciones:
 
-1. Los **Coaches** entrenan **Players** (_1 - M_).
+1. Los **Coaches** entrenan a una **posición** (_1 - M_).
 1. Los **Players** usan **uniformes** (_1 - 1_).
 1. Los **Players** tienen una **Posición** (_1 - M_).
 1. Los **Players** usan **Casilleros** (_1 - 1_).
